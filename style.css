@@ -87,6 +87,16 @@ a{
     padding-left: 10px;
 }
 
+.horizontal-list {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+  
+.horizontal-list li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 10px; /* Add some spacing between items (adjust as needed) */
+}
+
 /* media queres */
 @media(max-width:780px){
     .grid-2{
